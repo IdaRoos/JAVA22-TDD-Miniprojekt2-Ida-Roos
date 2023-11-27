@@ -165,9 +165,6 @@ class PrimeTest {
 
 
 
-
-
-
     // TESTING GETTERS FOR COUNT AND SUMOFPRIME
 
     @Test
@@ -254,7 +251,6 @@ class PrimeTest {
         assertEquals("Hej, det finns 4 primtal mellan 10 och 20!", outputStreamCaptor.toString().trim());
     }
 
-    // Liknande testfall för andra print-metoder...
 
     @Test
     @DisplayName("Test printSum with valid values")
